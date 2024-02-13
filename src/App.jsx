@@ -1,11 +1,12 @@
-import NavBar from "./Components/nav.jsx";
+import HeaderNav from "./Components/HeaderNav.jsx";
+
 
 
 function App() {
 
   return (
-    <div>
-          <NavBar/>
+      <div>
+          <HeaderNav/>
 
       </div>
   )
