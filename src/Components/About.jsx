@@ -1,10 +1,9 @@
-import React from 'react';
+import Home from "./Home.jsx";
 
 function About() {
+
     return (
-        <div>
-            <h1>About</h1>
-        </div>
+    <Home/>
     );
 }
 

@@ -8,12 +8,18 @@ function HeaderNav() {
             <nav
                 className="bg-dark dark:bg-gray-900 fixed w-full z-20 top-0  start-0 border-b border-gray-200 dark:border-gray-600">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                    <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <img src="https://avatars.githubusercontent.com/u/75634309?v=4" className="h-12 rounded-3xl"
-                             alt="Flowbite Logo"/>
-                        <span
-                            className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Qasem</span>
-                    </a>
+                    <div className="flex items-center gap-4">
+                        <img src="https://i.ibb.co/XSDsCvw/Whats-App-Image-2024-01-11-at-9-31-50-PM-removebg-preview-removebg-preview.jpg" alt="Qasem"
+                             className="relative inline-block object-cover object-center w-12 h-12 rounded-lg p-0.3"/>
+                        <div>
+                            <h6 className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-inherit">
+                                Qasem Mohammad
+                            </h6>
+                            <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700">
+                                Web Developer
+                            </p>
+                        </div>
+                    </div>
                     <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
 
                         <button data-collapse-toggle="navbar-sticky" type="button"
