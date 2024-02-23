@@ -4,6 +4,7 @@ import Home from "./Components/Home.jsx";
 import About from "./Components/About.jsx";
 import Projects from "./Components/Projects.jsx";
 import Contact from "./Components/Contact.jsx";
+import Footer from "./Components/Footer.jsx";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Home/>
           <Projects/>
           <Contact/>
+          <Footer/>
           {/*<BrowserRouter>*/}
           {/*    <Routes>*/}
           {/*        <Route path="/" element={<Home/>}/>*/}
