@@ -11,14 +11,17 @@ function App() {
   return (
       <div>
           <HeaderNav/>
-          <BrowserRouter>
-              <Routes>
-                  <Route path="/" element={<Home/>}/>
-                  <Route path="about" element={<About/>}/>
-                  <Route path="projects" element={<Projects/>}/>
-                  <Route path="contacts" element={<Contact/>}/>
-              </Routes>
-          </BrowserRouter>
+          <Home/>
+          <Projects/>
+          <Contact/>
+          {/*<BrowserRouter>*/}
+          {/*    <Routes>*/}
+          {/*        <Route path="/" element={<Home/>}/>*/}
+          {/*        <Route path="about" element={<About/>}/>*/}
+          {/*        <Route path="projects" element={<Projects/>}/>*/}
+          {/*        <Route path="contacts" element={<Contact/>}/>*/}
+          {/*    </Routes>*/}
+          {/*</BrowserRouter>*/}
       </div>
   )
 }
