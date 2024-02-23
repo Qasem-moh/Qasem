@@ -3,6 +3,8 @@ import {Typography} from "@material-tailwind/react";
 function Projects() {
     return (
         <div className="w-full mt-40">
+            <hr/>
+            <h1 className="ml-8 mt-4">Projects</h1>
             <div className="relative right-0">
                 <div data-tab-content="" className="p-5">
                     <div className="block opacity-100" id="app" role="tabpanel">

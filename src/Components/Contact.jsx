@@ -25,18 +25,24 @@ const Contact = () => {
     };
 
     return (
-        <StyledContactForm>
-            <form ref={form} onSubmit={sendEmail}>
-                <label>Name</label>
-                <input type="text" name="user_name"/>
-                <label>Email</label>
-                <input type="email" name="user_email"/>
-                <label>Message</label>
-                <textarea name="message"/>
-                <input type="submit" value="Send"/>
-            </form>
+        <>
+            <hr/>
+            <h1 className="ml-8 mt-4">Contact Us</h1>
+            <StyledContactForm>
 
-        </StyledContactForm>
+                <form ref={form} onSubmit={sendEmail}>
+                    <label>Name</label>
+                    <input type="text" name="user_name"/>
+                    <label>Email</label>
+                    <input type="email" name="user_email"/>
+                    <label>Message</label>
+                    <textarea name="message"/>
+                    <input type="submit" value="Send"/>
+                </form>
+
+            </StyledContactForm>
+        </>
+
     );
 };
 
@@ -59,12 +65,12 @@ const StyledContactForm = styled.div`
             height: 35px;
             padding: 7px;
             outline: none;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
-        color: #1a1a1a;
+            border-radius: 5px;
+            border: 1px solid rgb(220, 220, 220);
+            color: #1a1a1a;
 
-      &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
+            &:focus {
+                border: 2px solid rgba(0, 206, 158, 1);
       }
     }
 
