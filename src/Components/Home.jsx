@@ -24,7 +24,10 @@ function Home() {
                     </div>
                     <div className=" flex flex-wrap  w-full ">
                         <h4>Hi :)</h4>
-                        <p>👋 I'm Qasem Mohammad, I'm full stack web developedr, I've more Experince </p>
+                        <p>👋 I'm a skilled software developer with experience in TypeScript and JavaScript,
+                            and expertise in frameworks like React, Node.js, and Three.js.
+                            I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems.
+                            Let's work together to bring your ideas to life! </p>
 
                     </div>
                 </div>
