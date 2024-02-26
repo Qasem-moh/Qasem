@@ -26,7 +26,7 @@ const Contact = () => {
 
     return (
         <>
-            <hr/>
+            <hr className="mt-5"/>
             <h1 className="ml-8 mt-4">Contact Us</h1>
             <StyledContactForm>
 

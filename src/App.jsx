@@ -14,8 +14,10 @@ function App() {
           <HeaderNav/>
           <Home/>
           <Projects/>
+          <About/>
           <Contact/>
           <Footer/>
+
           {/*<BrowserRouter>*/}
           {/*    <Routes>*/}
           {/*        <Route path="/" element={<Home/>}/>*/}
