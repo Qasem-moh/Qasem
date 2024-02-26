@@ -11,7 +11,7 @@ function Projects() {
                         <div role="tabpanel"
                              className="grid w-full grid-cols-3 gap-4 p-4 font-sans text-base antialiased font-light leading-relaxed text-gray-700 h-max"
                              data-value="html">
-                            <div className="hover:transform hover:skew-y-1 hover:opacity-100 rounded-xl
+                            <div u8u className="hover:transform hover:skew-y-1 hover:opacity-100 rounded-xl
                              opacity-30 hover:scale-35 bg-cyan-500 hover:shadow-xl hover:shadow-pink-500/50 mb-5">
                                 <figure className="relative h-96 w-full ">
                                     <img
@@ -108,7 +108,7 @@ function Projects() {
                                 </figure>
                             </div>
                             <div className="hover:transform hover:skew-y-1 hover:opacity-100 rounded-xl
-                             opacity-30 hover:scale-35 bg-cyan-500 hover:shadow-xl hover:shadow-pink-500/50 mb-5">
+                             opacity-30 hover:scale-35 bg-cyan-500 hover:shadow-xl hover:shadow-pink-500/50 ">
                                 <figure className="relative h-96 w-full">
                                     <img
                                         className="h-full w-full rounded-xl object-cover object-center"
@@ -132,7 +132,7 @@ function Projects() {
                                 </figure>
                             </div>
                             <div className="hover:transform hover:skew-y-1 hover:opacity-100 rounded-xl
-                             opacity-30 hover:scale-35 bg-cyan-500 hover:shadow-xl hover:shadow-pink-500/50 mb-5">
+                             opacity-30 hover:scale-35 bg-cyan-500 hover:shadow-xl hover:shadow-pink-500/50">
                                 <figure className="relative h-96 w-full">
                                     <img
                                         className="h-full w-full rounded-xl object-cover object-center"
